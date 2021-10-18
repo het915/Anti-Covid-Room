@@ -19,7 +19,7 @@ void setup() {
  Serial.begin(115200);
 
  
- WiFi.begin("PUSHPVILLA", "gj01rj0915");
+ WiFi.begin("SSID", "PASS");
   while(WiFi.status() != WL_CONNECTED)
   {
     delay(200);
